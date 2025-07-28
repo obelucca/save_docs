@@ -1,0 +1,20 @@
+{
+    "name": "cleber/wiki-api",
+    "description": "wiki api",
+    "autoload": {
+        "psr-4": {
+            "Cleber\\WikiApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "obelucca",
+            "email": "beluca1453@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.14",
+        "slim/psr7": "^1.6",
+        "nyholm/psr7-server": "^1.1"
+    }
+}
