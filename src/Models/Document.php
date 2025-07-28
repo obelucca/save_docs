@@ -1,0 +1,26 @@
+<?php 
+
+namespace App\Models;
+
+class Document{
+    public ?int $id;
+    public string $title;
+    public string $responsible;
+    public string $description;
+    public ?string $image_url;
+
+
+    public function __construct(
+        ?int $id,
+        string $title,
+        string $responsible,
+        string $description,
+        ?string $image_url = null
+    ){
+        $this->id = $id;
+        $this->title = $title;
+        $this->responsible = $responsible;
+        $this->description = $description;
+        $this->image_url = $image_url;
+    }
+}

@@ -1,0 +1,31 @@
+# Arquivos de configurações sensíveis
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependências do Composer
+/vendor/
+
+# Arquivos de log e cache
+/storage/*.log
+/var/log/
+/tmp/
+
+# Arquivos de IDE (IntelliJ, VS Code, PHPStorm, etc.)
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente de desenvolvimento local (Ex: Docker, Xdebug)
+*.user
+*.bak
+*.tmp

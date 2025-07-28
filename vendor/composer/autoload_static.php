@@ -17,6 +17,7 @@ class ComposerStaticInitd06def7c2c3236153b8d691335cd0f58
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Slim\\Psr7\\' => 10,
+            'Slim\\Http\\' => 10,
             'Slim\\' => 5,
         ),
         'P' => 
@@ -35,9 +36,9 @@ class ComposerStaticInitd06def7c2c3236153b8d691335cd0f58
             'Fig\\Http\\Message\\' => 17,
             'FastRoute\\' => 10,
         ),
-        'C' => 
+        'A' => 
         array (
-            'Cleber\\WikiApi\\' => 15,
+            'App\\' => 4,
         ),
     );
 
@@ -49,6 +50,10 @@ class ComposerStaticInitd06def7c2c3236153b8d691335cd0f58
         'Slim\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/slim/psr7/src',
+        ),
+        'Slim\\Http\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/slim/http/src',
         ),
         'Slim\\' => 
         array (
@@ -84,7 +89,7 @@ class ComposerStaticInitd06def7c2c3236153b8d691335cd0f58
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
         ),
-        'Cleber\\WikiApi\\' => 
+        'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
