@@ -5,6 +5,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
+/src/config/vision-467514-64fc8fad67a8.json
 
 # Dependências do Composer
 /vendor/
@@ -29,3 +30,6 @@ Thumbs.db
 *.user
 *.bak
 *.tmp
+
+public/uploads/images/*
+
